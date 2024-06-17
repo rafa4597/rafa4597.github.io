@@ -1,0 +1,140 @@
+/* Estilos básicos para el cuerpo y el encabezado */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: rgb(255, 249, 249);
+  margin-top: 20px; /* Margen superior */
+  margin-bottom: 20px; /* Margen inferior */
+  font-style: italic;
+}
+
+h2 {
+  color: rgba(13, 92, 33, 0.616);
+  margin-top: 15px; /* Margen superior */
+  text-align: center; /* Alineación del texto */
+  margin-bottom: 15px; /* Margen inferior */
+}
+
+h3 {
+  font-family: Arial, sans-serif; /* Fuente del texto */
+  color: #181818; /* Color del texto */
+  margin-top: 5px; /* Margen superior */
+  text-align: justify; /* Alineación del texto */|
+  margin-bottom: 5px; /* Margen inferior */
+}
+
+header {
+  background-color: #e9e1e1;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  background-color: #005e08e7;
+}
+
+header ul.navbar li a {
+  color: #f6f8fa; /* Color del texto del enlace (en este caso, azul) */
+  text-decoration: none; /* Quitar subrayado por defecto */
+  transition: color 0.3s ease; /* Transición suave del color al hacer hover */
+}
+
+/* Estilos para la barra de navegación */
+nav {
+  margin: 10px 0;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ad0606d5;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #292828;
+}
+
+/* Estilos para el contenido principal */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #066d2d94;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.bloque {
+  background-color: #ffffff;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(26, 25, 25, 0.1);
+  padding: 40px; /* Agregado padding */
+  margin: 20px; /* Agregado margin */
+  text-align: center;
+}
+
+.contenedor {
+  display: flex; /* Establece flexbox para alinear los bloques */
+  justify-content: center; /* Centra los bloques dentro del contenedor */
+}
+
+.bloque h1 {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 20px; /* Agregado margin */
+}
+
+.bloque p {
+  color: #666666;
+  font-size: 16px;
+  margin-top: 10px; /* Agregado margin */
+text-align:center; /* Alineación del texto*/
+  margin-bottom: 20px; /* Agregado margin */
+}
+
+.imagen-contenedor {
+  width: 300px; /* Ajusta el ancho del contenedor según tus necesidades */
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center; /* Centra la imagen dentro del contenedor */
+  margin: 20px auto; /* Centra el contenedor dentro del padre */
+}
+
+/* Imagen dentro del contenedor */
+.imagen-contenedor img {
+  max-width: 100%; /* Asegura que la imagen se ajuste al ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
